@@ -7,3 +7,7 @@ This repository is my collection of vRealize Automation Extensibility Actions. T
 - Any "local environment variables" that are called out need to be added as inputs (on the right side)
 - Save the action, then go to "Subscriptions"
 - Create a subscription, which watches for a particular event, and add the action in question. Optionally you can filter on only certain <blueprints, users, projects, etc> events.
+
+## Available Actions
+- snow create - A ServiceNow integration, meant to show you can create a CMDB and Change Records for any new deployments
+- snow retire - A ServiceNow integratoin, meant to show you can "retire" assets in the CMDB, along with Change Records created with the change.
