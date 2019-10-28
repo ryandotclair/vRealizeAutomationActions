@@ -1,2 +1,9 @@
-# vRealizeAutomationActions
-My collection of vRA Actions
+# vRealize Automation Actions
+This repository is my collection of vRealize Automation Extensibility Actions. These have been written in Python 3, so should be supported in any FaaS providor.
+
+## Instructions
+- Copy the code into a "new" action in vRA. I try to call out what I've tested them against and any known limitations in the comments.
+- Any "import" statements at the top need to be added into the Dependency field (on the right side)
+- Any "local environment variables" that are called out need to be added as inputs (on the right side)
+- Save the action, then go to "Subscriptions"
+- Create a subscription, which watches for a particular event, and add the action in question. Optionally you can filter on only certain <blueprints, users, projects, etc> events.
