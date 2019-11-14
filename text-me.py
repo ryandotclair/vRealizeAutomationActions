@@ -2,7 +2,7 @@ import requests
 # This action notifies the user when a VM is ready (with it's IP address), via text message.
 # It does this by looking for the "To" tag, and expects the value to be a single cell phone number.
 # I've tested this with country codes and without.
-# The texting service I used is Twilio (twilio.com). 
+# The texting service I used is Twilio (www.twilio.com/referral/u4PGsu). 
 
 # There are three local inputs tied to this action:
 ## "from" - which you can use a number Twilio gives you (which opens up a "chat bot" capability)
