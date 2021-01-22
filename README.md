@@ -12,3 +12,4 @@ This repository is my collection of vRealize Automation Extensibility Actions. T
 - `snow-create.py` - A ServiceNow integration, meant to show you can create a CMDB and Change Records for any new deployments
 - `snow-retire.py` - A ServiceNow integration, meant to show you can "retire" assets in the CMDB, along with Change Records created with the change.
 - `text-me.py` - A texting integration, using twilio (twilio.com) as the texting service. Can notify user when VM has been provisioned along with it's IP address.
+- `to-event.py` - A Tanzu Observability (TO) integration, that sends an Event to TO for any Deployments.
