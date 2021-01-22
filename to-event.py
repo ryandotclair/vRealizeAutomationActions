@@ -1,5 +1,5 @@
 '''
-This action sends creates an event in Tanzu Observability. 
+This action creates an event in Tanzu Observability when a deployment is created (and potentially deleted). 
 
 Input Requirements:
 - "token". This is your Tanzu Observability API token in it ( ex: xxxxxx-yyyy-zzzz-aaaa-bbbbbbbbbbbb )
@@ -9,10 +9,8 @@ Subscription Recommendations:
 I recommend keying on "Deployment Completed" event. And I would add this to the filter: 
   event.data.eventType == 'CREATE_DEPLOYMENT'
 
-By default it will key on both creation and deletion events if you don't.
+By default it will key on both creation and deletion events if you don't add this filter.
 '''
-
-
 
 import requests
 import time
